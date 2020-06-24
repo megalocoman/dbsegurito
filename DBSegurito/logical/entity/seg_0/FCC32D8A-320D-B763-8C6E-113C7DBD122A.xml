@@ -16,7 +16,7 @@
 <normalForm>Third</normalForm>
 <shortName>men</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="449B92C1-22E6-5965-E9E3-4F12FE2F14BA">
+<Attribute name="id_mensualidad" id="449B92C1-22E6-5965-E9E3-4F12FE2F14BA">
 <createdBy>Cristian Jofre</createdBy>
 <createdTime>2020-06-24 14:39:36 UTC</createdTime>
 <ownerDesignName>DBSegurito</ownerDesignName>
@@ -50,6 +50,20 @@
 <item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="B826B1F4-241C-F8F9-31FC-CABBEA73305C">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:30:27 UTC</createdTime>
+<generatorID>8202679F-35C1-8247-8172-1F25AA5896B4</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<engineerTo>
+<item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
+</engineerTo>
+<referedAttribute>E9AC41F3-1663-62B4-5D1C-C537450209D0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

@@ -16,22 +16,21 @@
 <normalForm>Third</normalForm>
 <shortName>pla_acc</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="n_planaccion" id="7681C079-6CB4-130F-7763-5B05A3467FE9">
+<Attribute name="id" id="A2D9E1BD-44F4-9A72-F5AC-4BC61BDD4714">
 <createdBy>Cristian Jofre</createdBy>
-<createdTime>2020-06-24 16:19:11 UTC</createdTime>
+<createdTime>2020-06-24 16:19:57 UTC</createdTime>
 <ownerDesignName>DBSegurito</ownerDesignName>
 <engineerTo>
 <item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id" id="A2D9E1BD-44F4-9A72-F5AC-4BC61BDD4714">
+<Attribute name="n_planaccion" id="7681C079-6CB4-130F-7763-5B05A3467FE9">
 <createdBy>Cristian Jofre</createdBy>
-<createdTime>2020-06-24 16:19:57 UTC</createdTime>
+<createdTime>2020-06-24 16:19:11 UTC</createdTime>
 <ownerDesignName>DBSegurito</ownerDesignName>
 <engineerTo>
 <item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
@@ -82,6 +81,20 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>4500 CHAR</dataTypeSize>
 <ownDataTypeParameters>4500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_trabajador" id="F35209A8-EA47-6BB3-174E-1FBD733260F2">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:43:58 UTC</createdTime>
+<generatorID>3EE897F6-1082-1594-9D5D-E0E75AE08970</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<engineerTo>
+<item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
+</engineerTo>
+<referedAttribute>C201F119-D1FD-2C7B-A573-B0D78A5A16EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

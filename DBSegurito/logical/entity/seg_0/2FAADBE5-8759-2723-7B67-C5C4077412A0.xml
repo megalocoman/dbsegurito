@@ -66,6 +66,20 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_cliente" id="613CB28B-4688-E417-5BC4-D9E79E09A6C1">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:45:01 UTC</createdTime>
+<generatorID>F2C11E2D-09CE-2574-851A-29C263BF0832</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<engineerTo>
+<item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
+</engineerTo>
+<referedAttribute>E9AC41F3-1663-62B4-5D1C-C537450209D0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="0C418D62-E07E-20B3-6E3A-555D0C8A7D09" name="mejoras PK">

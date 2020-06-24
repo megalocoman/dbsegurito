@@ -16,7 +16,7 @@
 <normalForm>Third</normalForm>
 <shortName>cli</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="E9AC41F3-1663-62B4-5D1C-C537450209D0">
+<Attribute name="id_cliente" id="E9AC41F3-1663-62B4-5D1C-C537450209D0">
 <createdBy>Cristian Jofre</createdBy>
 <createdTime>2020-06-24 02:38:22 UTC</createdTime>
 <ownerDesignName>DBSegurito</ownerDesignName>

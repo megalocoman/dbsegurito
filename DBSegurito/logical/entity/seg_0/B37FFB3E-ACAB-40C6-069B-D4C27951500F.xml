@@ -16,7 +16,7 @@
 <normalForm>Third</normalForm>
 <shortName>tra</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="C201F119-D1FD-2C7B-A573-B0D78A5A16EC">
+<Attribute name="id_trabajador" id="C201F119-D1FD-2C7B-A573-B0D78A5A16EC">
 <createdBy>Cristian Jofre</createdBy>
 <createdTime>2020-06-24 02:42:15 UTC</createdTime>
 <ownerDesignName>DBSegurito</ownerDesignName>
