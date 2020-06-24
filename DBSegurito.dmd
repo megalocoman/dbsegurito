@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DBSegurito" id="8696FEA1-61EA-097B-D9AF-49CAF9D57C55" version="3.5">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 02:35:01 UTC</createdTime>
+<ownerDesignName>seguridad</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8696FEA1-61EA-097B-D9AF-49CAF9D57C55</designId>
+</OSDM_Design>
