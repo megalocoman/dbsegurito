@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="12944681-D4A3-51A9-02F0-FF47E91DF7CE" containerWithKeyObject="849428D6-8CBA-F1C9-F474-1728732DC33D" localFKIndex="AC64CA00-56C7-626E-E7DA-6BDA0C31851F" name="mejoras_asesoria_FK">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 21:58:52 UTC</createdTime>
+<generatorID>B02B8A70-46FF-8DA3-ECA2-2E3DD17BF61F</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<referredTableLongName>asesoria</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EA7481AA-E1E3-DF3C-876E-E8E693562628</referredTableID>
+<keyObject>79AFA971-3FDF-1F23-326B-48814C359F21</keyObject>
+<referredKeyID>79AFA971-3FDF-1F23-326B-48814C359F21</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_asesoria</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

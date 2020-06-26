@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FE6143B5-CF5E-1F81-5600-1A740E508C2F" containerWithKeyObject="849428D6-8CBA-F1C9-F474-1728732DC33D" localFKIndex="754F047D-D658-B0B8-BA2A-C9CB3552D99F" name="mejoras_plan_accion_FK">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 21:58:52 UTC</createdTime>
+<generatorID>C4B785EA-5D50-F09F-C62F-0D36EDF5CBAF</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<referredTableLongName>plan_accion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B3169A92-BF5B-E96F-0BB5-90EEFBEBDEAB</referredTableID>
+<keyObject>92FEEC85-EB98-2182-6A3B-CACBD633CB73</keyObject>
+<referredKeyID>92FEEC85-EB98-2182-6A3B-CACBD633CB73</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

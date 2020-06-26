@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="pruebagrupal4" id="5E527DF1-38E4-D95A-8A4D-6E291C0BFF87" version="3.5">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:05:07 UTC</createdTime>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5E527DF1-38E4-D95A-8A4D-6E291C0BFF87</designId>
+</OSDM_Design>

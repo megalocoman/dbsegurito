@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="119452EA-A85C-3E47-F27C-D93D73066D10" name="historial_visitas">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>B88AFE56-BC3F-112F-A2F8-0906F33BFA16</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<abbreviation>his_vis</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B1BCC277-C0A1-0992-54BD-934CB3625982">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>67111798-5D4E-E1A6-3DCA-AB831EC83AFB</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_visita" id="BEDFAFD9-2427-B7A5-AB3C-34427D195031">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>6D2FE467-386D-7ED2-E490-90422FB0C04D</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observacion" id="0D3A0654-90B1-665C-4987-CF5574F2C4BC">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>F3537887-8253-4F0F-3C36-9C00BDDDA759</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2500</dataTypeSize>
+<ownDataTypeParameters>2500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivel_seguridad" id="03BE5334-8A54-2C34-2689-CA86DC2A13BE">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>A5695305-7103-0E84-E199-5D135AB08D2B</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cliente_id_cliente" id="99D99197-6023-1259-F7BF-C03E2F68691F">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>BA9C09C2-33A9-CB9E-5D05-72A341CA0223</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B935D265-BA00-2B18-A701-8EFB2CF961BA" referredColumn="CAB21F72-32B5-00CF-4406-66E3D43C6B9F"/>
+</associations>
+</Column>
+<Column name="trabajador_id_trabajador" id="F0D3F3BD-A62B-A538-BD62-9B81DDE94E73">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>F6BE1E26-D2C7-75BF-4522-17ED0AC932D5</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="056C0700-82AE-0C8C-5496-A06E148F58A2" referredColumn="15F524E4-7F0F-35C1-6137-D3320B42AF3B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C0296EC-FA1F-B609-35C6-218812DCF755" name="historial_visitas_PK">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>3B20433D-1A5D-63C2-A45F-98596648D84E</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1BCC277-C0A1-0992-54BD-934CB3625982"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A56D5190-F4CD-E45D-95EF-F3A716D0DA3F" name="historial_visitas_cliente_FK">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>37B0917F-B3E7-A9E6-A052-F94526AA8776</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99D99197-6023-1259-F7BF-C03E2F68691F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCC9DFDD-4D85-4671-BBFB-669D556E9A4E" name="historial_visitas_trabajador_FK">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>D1518929-D0F4-FD46-FCDC-F79380EAE601</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0D3F3BD-A62B-A538-BD62-9B81DDE94E73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

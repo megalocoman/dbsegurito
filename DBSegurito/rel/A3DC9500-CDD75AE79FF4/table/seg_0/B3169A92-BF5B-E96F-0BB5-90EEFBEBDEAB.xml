@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3169A92-BF5B-E96F-0BB5-90EEFBEBDEAB" name="plan_accion">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>E285AAC0-CA63-A5C8-C00C-0B4FC3565454</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<abbreviation>pla_acc</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E3874649-5B63-3162-6D08-FD901834DDB3">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>A2D9E1BD-44F4-9A72-F5AC-4BC61BDD4714</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="accion" id="2E44F141-BBC5-8D12-4EC9-57EE2349018A">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>9B2AB1C5-B054-1933-76D8-477DB2883C6B</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="realizada" id="79487D96-DB2B-6A5A-D337-52668F21C42D">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>E28FDCCD-4F98-D47B-C409-FA80332F6DC0</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observacion" id="F4FC5993-5456-3D16-163C-F693F2EB0492">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>7326C6EB-594A-9E13-0FBD-FAC4484E6F6A</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4500 CHAR</dataTypeSize>
+<ownDataTypeParameters>4500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trabajador_id_trabajador" id="62375E72-D19A-EF37-2E1B-80013CA25362">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>F35209A8-EA47-6BB3-174E-1FBD733260F2</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A7D352A-D5FD-5D3A-26DA-C19E7D7C164B" referredColumn="15F524E4-7F0F-35C1-6137-D3320B42AF3B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92FEEC85-EB98-2182-6A3B-CACBD633CB73" name="plan_accion_PK">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>A3788F2F-E545-FE51-EBE3-88D7F8AD909C</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3874649-5B63-3162-6D08-FD901834DDB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52224CD4-3022-3253-9302-7CAFE056DE6F" name="plan_accion_trabajador_FK">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>3EE897F6-1082-1594-9D5D-E0E75AE08970</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62375E72-D19A-EF37-2E1B-80013CA25362"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

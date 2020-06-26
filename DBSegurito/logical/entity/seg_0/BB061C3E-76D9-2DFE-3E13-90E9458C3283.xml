@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B88AFE56-BC3F-112F-A2F8-0906F33BFA16" name="historial_visitas">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB061C3E-76D9-2DFE-3E13-90E9458C3283" name="asesoria">
 <createdBy>Cristian Jofre</createdBy>
-<createdTime>2020-06-24 15:35:08 UTC</createdTime>
+<createdTime>2020-06-24 21:40:52 UTC</createdTime>
 <ownerDesignName>DBSegurito</ownerDesignName>
 <engineerTo>
 <item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
@@ -14,11 +14,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>his_vis</shortName>
+<shortName>ase</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="67111798-5D4E-E1A6-3DCA-AB831EC83AFB">
+<Attribute name="id_asesoria" id="2B149B79-F974-1713-A60B-322371D59134">
 <createdBy>Cristian Jofre</createdBy>
-<createdTime>2020-06-24 15:35:37 UTC</createdTime>
+<createdTime>2020-06-24 21:41:07 UTC</createdTime>
 <ownerDesignName>DBSegurito</ownerDesignName>
 <engineerTo>
 <item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
@@ -28,35 +28,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_visita" id="6D2FE467-386D-7ED2-E490-90422FB0C04D">
+<Attribute name="fecha_visita" id="3BE0B95C-30F5-F72D-1B2C-F0162CB26FFF">
 <createdBy>Cristian Jofre</createdBy>
-<createdTime>2020-06-24 15:35:53 UTC</createdTime>
-<ownerDesignName>DBSegurito</ownerDesignName>
-<engineerTo>
-<item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="observacion" id="F3537887-8253-4F0F-3C36-9C00BDDDA759">
-<createdBy>Cristian Jofre</createdBy>
-<createdTime>2020-06-24 15:44:34 UTC</createdTime>
-<ownerDesignName>DBSegurito</ownerDesignName>
-<engineerTo>
-<item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>2500</dataTypeSize>
-<ownDataTypeParameters>2500,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nivel_seguridad" id="A5695305-7103-0E84-E199-5D135AB08D2B">
-<createdBy>Cristian Jofre</createdBy>
-<createdTime>2020-06-24 15:56:24 UTC</createdTime>
+<createdTime>2020-06-24 21:41:48 UTC</createdTime>
 <ownerDesignName>DBSegurito</ownerDesignName>
 <engineerTo>
 <item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
@@ -67,10 +41,10 @@
 <dataTypeSize>20 CHAR</dataTypeSize>
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_cliente" id="BA9C09C2-33A9-CB9E-5D05-72A341CA0223">
+<Attribute name="id_cliente" id="EDFC4D2B-D19D-427F-B5B1-F62239797762">
 <createdBy>Cristian Jofre</createdBy>
-<createdTime>2020-06-24 20:37:48 UTC</createdTime>
-<generatorID>37B0917F-B3E7-A9E6-A052-F94526AA8776</generatorID>
+<createdTime>2020-06-24 21:42:52 UTC</createdTime>
+<generatorID>41944AC4-4184-6E04-C56C-B9B9BA9F9E0B</generatorID>
 <ownerDesignName>DBSegurito</ownerDesignName>
 <engineerTo>
 <item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
@@ -81,15 +55,13 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_trabajador" id="F6BE1E26-D2C7-75BF-4522-17ED0AC932D5">
+<Attribute name="solicitado_por" id="13085622-EE09-C567-AB14-80C006CA187F">
 <createdBy>Cristian Jofre</createdBy>
-<createdTime>2020-06-24 20:38:30 UTC</createdTime>
-<generatorID>D1518929-D0F4-FD46-FCDC-F79380EAE601</generatorID>
+<createdTime>2020-06-24 21:48:16 UTC</createdTime>
 <ownerDesignName>DBSegurito</ownerDesignName>
 <engineerTo>
 <item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
 </engineerTo>
-<referedAttribute>C201F119-D1FD-2C7B-A573-B0D78A5A16EC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -97,17 +69,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3B20433D-1A5D-63C2-A45F-98596648D84E" name="historial_visitas PK">
+<identifier id="99C7CA85-041C-6512-A7F9-76D3AB94A154" name="asesoria PK">
 <createdBy>Cristian Jofre</createdBy>
-<createdTime>2020-06-24 15:35:49 UTC</createdTime>
+<createdTime>2020-06-24 21:41:25 UTC</createdTime>
 <ownerDesignName>DBSegurito</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="false"/>
+<item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>67111798-5D4E-E1A6-3DCA-AB831EC83AFB</attributeRef>
+<attributeRef>2B149B79-F974-1713-A60B-322371D59134</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

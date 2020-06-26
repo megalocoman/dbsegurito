@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBAC9C17-6144-1EB7-7C70-9C5D70296771" name="mensualidad">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>FCC32D8A-320D-B763-8C6E-113C7DBD122A</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<abbreviation>men</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_mensualidad" id="88C9685A-ABB7-1771-134D-87A395FE8294">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>449B92C1-22E6-5965-E9E3-4F12FE2F14BA</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_pago" id="AF677A86-7059-BA02-9658-493884122B98">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>A982F3B9-6E4D-F169-FF82-6E5B96F5C513</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pago_mensualidad" id="A7D61683-C495-EBE5-3818-876AA8EF0EA7">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>6F3DEB23-5847-C967-B54B-B4A2DAC3F923</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cliente_id_cliente" id="45A6D2AC-AF8D-5C03-6367-35A818022266">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>B826B1F4-241C-F8F9-31FC-CABBEA73305C</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1134BFC5-97F2-8EDA-69A1-913EFCCC4FB8" referredColumn="CAB21F72-32B5-00CF-4406-66E3D43C6B9F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="582ADC9D-DF51-7800-5AAA-6A11BCA97A40" name="mensualidad_PK">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>AECF5050-2FFF-49E7-BE43-8B05E9F603B0</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88C9685A-ABB7-1771-134D-87A395FE8294"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F7DD8F1-537E-89BD-29E2-F5C26A8E2500" name="mensualidad_cliente_FK">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>8202679F-35C1-8247-8172-1F25AA5896B4</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45A6D2AC-AF8D-5C03-6367-35A818022266"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

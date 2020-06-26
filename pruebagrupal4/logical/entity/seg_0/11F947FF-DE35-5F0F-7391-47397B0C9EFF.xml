@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11F947FF-DE35-5F0F-7391-47397B0C9EFF" name="OT">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:20:12 UTC</createdTime>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ot</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numeroOT" id="022BACE0-3F0E-5821-08E2-1D06F63B9A19">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:20:24 UTC</createdTime>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_actividad" id="6507F5C6-B158-A0D6-0134-BB6E66DF4D29">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:21:33 UTC</createdTime>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="13B1EDF2-B4D4-6FCD-7B64-1A02443BB069">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:21:55 UTC</createdTime>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pago" id="BE80DFBE-D4D9-D0AF-85DE-20D09E0CCA5C">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:22:28 UTC</createdTime>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status actividad" id="C6FA36FA-390C-5367-3096-477AF59941C6">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:23:17 UTC</createdTime>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_cliente" id="45489749-7A01-63F5-2BA7-705A4C20318F">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:33:38 UTC</createdTime>
+<generatorID>52AB348E-F35A-0EBE-082D-88F13526447F</generatorID>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<referedAttribute>DEFECC9C-2BB8-4A42-B09A-DDF1FE05B20F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profesional" id="1B60EFD4-7A37-FE50-4E05-A0EEB7DF3682">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:34:10 UTC</createdTime>
+<generatorID>9A9D52A3-103F-F23F-DE43-DF5B99F6BB34</generatorID>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<referedAttribute>9178FAA2-A53D-FE26-1011-6C6D7AC1EAEE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_profesional" id="10E06E6C-34D3-7223-8063-D0DE096D945E">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:34:10 UTC</createdTime>
+<generatorID>9A9D52A3-103F-F23F-DE43-DF5B99F6BB34</generatorID>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<referedAttribute>51EDC3D1-7053-EC94-28A0-59C9792DFD0D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_actividad" id="C374093E-341A-B907-2D1C-0A73DDE9D29A">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:35:30 UTC</createdTime>
+<generatorID>3C9BEABC-A7B7-1BD7-EB07-07AC1364FDB6</generatorID>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<referedAttribute>682DAE8D-F67D-AD4C-BF0B-2040BC7F94C1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA79283F-D5BB-5EBF-1D71-A2CAB8ADD807" name="OT PK">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:20:37 UTC</createdTime>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>022BACE0-3F0E-5821-08E2-1D06F63B9A19</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

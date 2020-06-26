@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="849428D6-8CBA-F1C9-F474-1728732DC33D" name="mejoras">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>2FAADBE5-8759-2723-7B67-C5C4077412A0</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<abbreviation>mej</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="64D2116A-F75C-54A1-1F8D-BFF1640C4643">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>2CD04A16-25AE-5627-E457-67303F09E552</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="9E0573F4-B4D1-9574-1943-68BE47C0E3CF">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>F4201CFD-7B07-FF1C-36B0-4A948C1DEB6A</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mejora" id="C388E949-0DF7-0845-A6AE-CF335041C1E7">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>F987A040-FEC0-AC3B-4090-470CD10B6E4B</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="implementacion_mejora" id="50686C49-9B1D-A372-3266-C43882513F4C">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>08774DDF-C35B-5B3F-688A-FF5A8D100AE1</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="asesoria_id_asesoria" id="AB743B7A-9D33-216A-E2D6-48D157497CC9">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 21:58:52 UTC</createdTime>
+<generatorID>0729620C-7418-2509-15C7-C0D6A763079F</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12944681-D4A3-51A9-02F0-FF47E91DF7CE" referredColumn="4D8C9B81-2293-78AF-EC06-9F4ED958605D"/>
+</associations>
+</Column>
+<Column name="plan_accion_id" id="4B4A4BD7-9F27-A94D-CA0A-CF874B0AAF2C">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 21:58:52 UTC</createdTime>
+<generatorID>2B534E10-258E-B32E-831B-7F141DBD49F6</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE6143B5-CF5E-1F81-5600-1A740E508C2F" referredColumn="E3874649-5B63-3162-6D08-FD901834DDB3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E261ACBA-4EC1-0678-0089-855DEF746E2D" name="mejoras_PK">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 20:55:24 UTC</createdTime>
+<generatorID>0C418D62-E07E-20B3-6E3A-555D0C8A7D09</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64D2116A-F75C-54A1-1F8D-BFF1640C4643"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="754F047D-D658-B0B8-BA2A-C9CB3552D99F" name="mejoras_plan_accion_FK">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 21:58:52 UTC</createdTime>
+<generatorID>C4B785EA-5D50-F09F-C62F-0D36EDF5CBAF</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B4A4BD7-9F27-A94D-CA0A-CF874B0AAF2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC64CA00-56C7-626E-E7DA-6BDA0C31851F" name="mejoras_asesoria_FK">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 21:58:52 UTC</createdTime>
+<generatorID>B02B8A70-46FF-8DA3-ECA2-2E3DD17BF61F</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB743B7A-9D33-216A-E2D6-48D157497CC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="52934FD6-0D24-2079-A458-77476F601788" name="actividades">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:26:07 UTC</createdTime>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>act</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_actividad" id="682DAE8D-F67D-AD4C-BF0B-2040BC7F94C1">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:26:32 UTC</createdTime>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="8A30FC75-585E-0503-F4CB-4A5ED1CFC79C">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:26:59 UTC</createdTime>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="3577B97B-EB0B-85F9-BA21-501B169AA733">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:27:35 UTC</createdTime>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>600 CHAR</dataTypeSize>
+<ownDataTypeParameters>600 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroOT" id="14B32121-134F-8F4F-686B-089073936B3F">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:35:02 UTC</createdTime>
+<generatorID>3C9BEABC-A7B7-1BD7-EB07-07AC1364FDB6</generatorID>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<referedAttribute>022BACE0-3F0E-5821-08E2-1D06F63B9A19</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6370EEEA-EF38-E7D4-9464-B0C155A9E6B3" name="actividades PK">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:28:42 UTC</createdTime>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>682DAE8D-F67D-AD4C-BF0B-2040BC7F94C1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

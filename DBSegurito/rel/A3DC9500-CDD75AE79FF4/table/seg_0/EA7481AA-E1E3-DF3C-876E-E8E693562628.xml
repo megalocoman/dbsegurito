@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA7481AA-E1E3-DF3C-876E-E8E693562628" name="asesoria">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 21:58:52 UTC</createdTime>
+<generatorID>BB061C3E-76D9-2DFE-3E13-90E9458C3283</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<abbreviation>ase</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asesoria" id="4D8C9B81-2293-78AF-EC06-9F4ED958605D">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 21:58:52 UTC</createdTime>
+<generatorID>2B149B79-F974-1713-A60B-322371D59134</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_visita" id="45ECEA15-340E-3676-832B-6DD7CFEDD8C5">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 21:58:52 UTC</createdTime>
+<generatorID>3BE0B95C-30F5-F72D-1B2C-F0162CB26FFF</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cliente_id_cliente" id="88D4C632-293E-B628-10D8-C74DFE9DC5F3">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 21:58:52 UTC</createdTime>
+<generatorID>EDFC4D2B-D19D-427F-B5B1-F62239797762</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="031FFD54-18B1-56B9-9B6E-D90597F31EDD" referredColumn="CAB21F72-32B5-00CF-4406-66E3D43C6B9F"/>
+</associations>
+</Column>
+<Column name="solicitado_por" id="D8BD9C5A-E991-F94A-88AA-D12DEE26980F">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 21:58:52 UTC</createdTime>
+<generatorID>13085622-EE09-C567-AB14-80C006CA187F</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79AFA971-3FDF-1F23-326B-48814C359F21" name="asesoria_PK">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 21:58:52 UTC</createdTime>
+<generatorID>99C7CA85-041C-6512-A7F9-76D3AB94A154</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D8C9B81-2293-78AF-EC06-9F4ED958605D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67BC29DA-4809-8CB5-C95F-AC683EA1AC48" name="asesoria_cliente_FK">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-24 21:58:52 UTC</createdTime>
+<generatorID>41944AC4-4184-6E04-C56C-B9B9BA9F9E0B</generatorID>
+<ownerDesignName>DBSegurito</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88D4C632-293E-B628-10D8-C74DFE9DC5F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

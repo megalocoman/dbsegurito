@@ -28,32 +28,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="n_planaccion" id="7681C079-6CB4-130F-7763-5B05A3467FE9">
-<createdBy>Cristian Jofre</createdBy>
-<createdTime>2020-06-24 16:19:11 UTC</createdTime>
-<ownerDesignName>DBSegurito</ownerDesignName>
-<engineerTo>
-<item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="accion" id="9B2AB1C5-B054-1933-76D8-477DB2883C6B">
-<createdBy>Cristian Jofre</createdBy>
-<createdTime>2020-06-24 16:20:14 UTC</createdTime>
-<ownerDesignName>DBSegurito</ownerDesignName>
-<engineerTo>
-<item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>3000 CHAR</dataTypeSize>
-<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="realizada" id="E28FDCCD-4F98-D47B-C409-FA80332F6DC0">
 <createdBy>Cristian Jofre</createdBy>
 <createdTime>2020-06-24 16:21:12 UTC</createdTime>
@@ -102,8 +76,9 @@
 <createdBy>Cristian Jofre</createdBy>
 <createdTime>2020-06-24 16:20:12 UTC</createdTime>
 <ownerDesignName>DBSegurito</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
+<item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

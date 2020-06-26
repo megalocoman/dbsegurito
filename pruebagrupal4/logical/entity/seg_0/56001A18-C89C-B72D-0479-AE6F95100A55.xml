@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56001A18-C89C-B72D-0479-AE6F95100A55" name="accidente">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:12:30 UTC</createdTime>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>acc</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_accidente" id="33D14897-A560-4F43-2948-86D31C985CA1">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:12:49 UTC</createdTime>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="DADAEE20-7853-8599-B1E2-D8CE8B00BEE3">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:13:31 UTC</createdTime>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_accidente" id="CA9574C9-6D62-A46F-98F7-E7A650BF0E7A">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:13:55 UTC</createdTime>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_cliente" id="30EC11A7-779E-2529-FD57-AE99934C8FE1">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:32:57 UTC</createdTime>
+<generatorID>9B98CCD3-07A1-5775-8741-796A167335BC</generatorID>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<referedAttribute>DEFECC9C-2BB8-4A42-B09A-DDF1FE05B20F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8EAF173A-87D9-FAD7-6F06-0FB2D3EBC3F0" name="accidente PK">
+<createdBy>Cristian Jofre</createdBy>
+<createdTime>2020-06-26 01:13:29 UTC</createdTime>
+<ownerDesignName>pruebagrupal4</ownerDesignName>
+<engineerTo>
+<item key="9E1C0E25-8097-DABB-A2D3-EE8871D9F1CA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>33D14897-A560-4F43-2948-86D31C985CA1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

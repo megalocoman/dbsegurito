@@ -28,19 +28,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha" id="F4201CFD-7B07-FF1C-36B0-4A948C1DEB6A">
-<createdBy>Cristian Jofre</createdBy>
-<createdTime>2020-06-24 19:47:40 UTC</createdTime>
-<ownerDesignName>DBSegurito</ownerDesignName>
-<engineerTo>
-<item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="mejora" id="F987A040-FEC0-AC3B-4090-470CD10B6E4B">
 <createdBy>Cristian Jofre</createdBy>
 <createdTime>2020-06-24 19:49:18 UTC</createdTime>
@@ -51,30 +38,32 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="implementacion_mejora" id="08774DDF-C35B-5B3F-688A-FF5A8D100AE1">
+<Attribute name="id_asesoria" id="0729620C-7418-2509-15C7-C0D6A763079F">
 <createdBy>Cristian Jofre</createdBy>
-<createdTime>2020-06-24 19:50:08 UTC</createdTime>
+<createdTime>2020-06-24 21:46:25 UTC</createdTime>
+<generatorID>B02B8A70-46FF-8DA3-ECA2-2E3DD17BF61F</generatorID>
 <ownerDesignName>DBSegurito</ownerDesignName>
 <engineerTo>
 <item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2B149B79-F974-1713-A60B-322371D59134</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_cliente" id="613CB28B-4688-E417-5BC4-D9E79E09A6C1">
+<Attribute name="id1" id="2B534E10-258E-B32E-831B-7F141DBD49F6">
 <createdBy>Cristian Jofre</createdBy>
-<createdTime>2020-06-24 20:45:01 UTC</createdTime>
-<generatorID>F2C11E2D-09CE-2574-851A-29C263BF0832</generatorID>
+<createdTime>2020-06-24 21:55:39 UTC</createdTime>
+<generatorID>C4B785EA-5D50-F09F-C62F-0D36EDF5CBAF</generatorID>
 <ownerDesignName>DBSegurito</ownerDesignName>
 <engineerTo>
 <item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
 </engineerTo>
-<referedAttribute>E9AC41F3-1663-62B4-5D1C-C537450209D0</referedAttribute>
+<referedAttribute>A2D9E1BD-44F4-9A72-F5AC-4BC61BDD4714</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -86,8 +75,9 @@
 <createdBy>Cristian Jofre</createdBy>
 <createdTime>2020-06-24 19:47:36 UTC</createdTime>
 <ownerDesignName>DBSegurito</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="true"/>
+<item key="A3DC9500-F198-263B-D13B-CDD75AE79FF4" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
